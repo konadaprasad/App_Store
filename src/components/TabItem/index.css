@@ -1,0 +1,23 @@
+.tab-item {
+  display: flex;
+  flex-direction: column;
+}
+.tab-btn {
+  height: 50px;
+  width: 100px;
+  border-style: solid;
+  border: 0px none;
+  background-color: transparent;
+  color: #7b8794;
+  cursor: pointer;
+  outline: none;
+}
+.active-tab-btn {
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 0px;
+  border-bottom-color: #2563eb;
+  border-bottom-width: 2px;
+  color: #2563eb;
+  font-size: 16px;
+}
